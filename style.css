@@ -9,13 +9,14 @@
     background-color: white;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
-    background-color: black;
+
 }
 
 .logo img {
-    height: 100px;
-    width: 150px;
+    ;
+    width: 12rem;
 }
 
 #checkbox {
@@ -25,12 +26,16 @@
 .container>.child {
 
 
-    color: black padding: 10px;
+    color: black;
+    padding: 10px;
     font-size: 2rem;
+
+
+
 }
 
 i {
-    font-size: 3rem;
+    font-size: 2rem;
     display: none;
     color: black;
 
@@ -58,3 +63,4 @@ i-1 {
 
 
 }
+
