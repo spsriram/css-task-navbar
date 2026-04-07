@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 100px;
+    width: 150px;
+}
+
+#checkbox {
+    display: none;
+}
+
+.container>.child {
+
+
+    color: black padding: 10px;
+    font-size: 2rem;
+}
+
+i {
+    font-size: 3rem;
+    display: none;
+    color: black;
+
+}
+
+i-1 {
+    color: black;
+    font-size: 2rem;
+}
+
+@media screen and (width <=600px) {
+    i {
+        display: block;
+    }
+
+    .child {
+        display: none;
+
+    }
+
+    #checkbox:checked~.child {
+        display: block;
+    }
+
+
+
+}
